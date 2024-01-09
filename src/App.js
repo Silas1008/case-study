@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Sage from './Pages/Sage/Sage';
+import Home from './Components/Home/Home';
+import BlueFlower from './Pages/BlueFlower/BlueFlower';
+import BCU from './Pages/Bengaluru/BCU';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='sage' element={<Sage/>}/>
+    <Route path='blueflower' element={<BlueFlower/>}/>
+    <Route path='bcu' element={<BCU/>}/>
+    </Routes>
+    <Footer/>
+    </BrowserRouter>
+   </>
   );
 }
 

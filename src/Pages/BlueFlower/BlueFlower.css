@@ -1,0 +1,133 @@
+.blue-one img{
+    width: 90vw;
+    padding: 0 50px 50px 70px;
+    margin-top: 100px;
+}
+.introduction{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.blue-title{
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.problems{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.solutions{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.solutions li{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.solutions img{
+    width: 70vw;
+    margin-top: 50px;
+}
+.solution-appt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.appt-decription{
+    display: grid;
+    justify-content: center;
+    gap: 70px;
+}
+.events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.event-decription{
+    display: grid;
+    justify-content: center;
+    gap: 70px;
+}
+.research-images img{
+    width: 200px;
+    margin-top: 50px;
+}
+.research-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.research{
+    display: grid;
+    justify-content: center;
+    gap: 70px;
+}
+.wireframing{
+display: grid;
+justify-content: center;
+gap: 70px;
+}
+.persona-images{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.persona-images img{
+width: 30vw;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.mockup{
+    display: grid;
+    justify-content: center;
+}
+.flow-image{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.flow-image img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.conclusions{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.takeaways{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.takeaways li{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.mockup-images-one{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+   margin-top: 50px;
+}
+.mockup-images-two{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+   margin-top: 50px;
+}
+
+.prototypes img{
+    width: 300px;
+}
+.analysis-imapct{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}

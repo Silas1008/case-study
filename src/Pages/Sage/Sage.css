@@ -1,0 +1,178 @@
+.title h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.return{
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+}
+.section-one img{
+    width: 80vw;
+    padding: 0 50px 50px 140px;
+}
+hr {
+    border: none; 
+    width: 80vw;
+    height: 4px; 
+    border-radius: 20px;
+    background-color: rgb(222, 222, 222); 
+    margin: 70px auto; 
+  }
+.time-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.problem{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.solution{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.solution-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.solution img{
+    width: 300px;
+}
+.solution-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.solution-two img{
+    width: 500px;
+}
+.solution-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.research{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.competitions{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.competion-logo img{
+    width: 100px;
+    margin-top: 20px;
+    margin: 20px;
+}
+.competion-logo{
+    background-color: rgb(210, 210, 210);
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.interview{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.questions p{
+    margin-top: 20px;
+}
+.interview-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.interview-image img{
+    margin-top: 50px;
+    width: 50vw;
+}
+.insights{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.insight-one{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.insight-two{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.insight-three{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.setbacks {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.iteration{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.iteration img{
+    width: 50vw;
+}
+.changes img{
+ width: 500px;
+ margin-top: 50px;
+}
+.changes-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.changes-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.change-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.final-result{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.result-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.result-images img{
+    width: 200px;
+    margin-top: 50px;
+}
+.lessons{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+/* Footer.css */
+
+.footer {
+  background-color: #000; /* Black background color */
+  color: transparent; /* Make the original text color transparent */
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.center-text {
+  font-size: 100px;
+  font-weight: bold;
+  background: linear-gradient(90deg, rgba(15,26,213,1) 0%, rgba(66,64,224,1) 21%, rgba(162,102,136,1) 55%, rgba(90,31,127,1) 78%, rgba(118,35,227,1) 96%);
+  -webkit-background-clip: text; /* Apply gradient to text only for Webkit browsers */
+  color: transparent; /* Make the original text color transparent */
+}
+
+.email {
+  margin-top: 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.email:hover {
+  color: #3498db; /* Set your preferred hover color */
+}
