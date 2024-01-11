@@ -1,0 +1,82 @@
+.bcu-title{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.bcu-title h1{
+    color: black;
+}
+.bcu p{
+    color: black;
+    font-size: 18px;
+}
+.about-bcu{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.intro-bcu{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.overview{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px; 
+}
+.overview li{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.takeaway li{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.why{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;  
+}
+.why-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.why-images img{
+    width: 600px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.why-unsure{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px; 
+}
+.how{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.challenges{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.design-changes{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.design-changes img{
+    margin-top: 50px;
+    width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.takeaway{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px; 
+}
