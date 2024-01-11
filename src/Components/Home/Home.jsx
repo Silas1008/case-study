@@ -2,6 +2,8 @@ import "./Home.css"
 import sage from "../../Assets/moodboard.jpg"
 import { Link } from "react-router-dom"
 import caseblue from "../../Assets/case.png"
+import callback from "../../Assets/callback.png"
+
 
 const Home = () => {
   return (
@@ -32,6 +34,19 @@ const Home = () => {
       </h2>
       <div className="buttons" style={{marginTop: "50px"}}>
       <Link to="/blueflower"><button className="button-view">View case study</button></Link>
+      </div>
+      </div>
+      </div>
+
+      <div className="bcu-case">
+      <img src={callback} alt=""/>
+      <div>
+      <p style={{color: "black"}}>Research</p>
+      <h2>Improving the first time user experience <br></br>on
+      Bengaluru City University:<br></br>A case study
+      </h2>
+      <div className="buttons" style={{marginTop: "50px"}}>
+      <Link to="/bcu"><button className="button-view">View case study</button></Link>
       </div>
       </div>
       </div>

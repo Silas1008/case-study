@@ -1,4 +1,5 @@
 import "./BCU.css"
+import left from "../../Assets/leftarrow.png";
 import ai from "../../Assets/ailanding.png";
 import filter from "../../Assets/filters.png"
 import why1 from "../../Assets/why1.png";
@@ -29,6 +30,10 @@ const BCU = () => {
   };
   return (
     <div className="bcu">
+    <div className="return">
+      <img src={left} alt="" style={{width: "20px"}}/>
+      <Link to="/" style={{textDecoration: "none", color: "grey", fontWeight: "500"}}>Back To Home</Link>
+      </div>
       <div className="bcu-title">
       <h1 style={{fontSize: "45px"}}>Improving the first time user experience on 
       <br></br>Bengaluru City University: A case study</h1>
@@ -37,6 +42,19 @@ const BCU = () => {
       <div className="landing-images" style={{backgroundColor: "#F2952A", width: "80vw", height: "100vh"}}>
       <img src={filter} alt="" style={{width: "650px", marginRight: "100px", marginTop: "100px", marginLeft: "100px"}}/>
       <img src={ai} alt="" style={{width: "300px", marginTop: "50px"}}/>
+      </div>
+      </div>
+
+     
+      <hr></hr>
+
+      <div className="time-line">
+      <div className="duration">
+      <li>November - December 2023 <span>(3 weeks)</span></li>
+      </div>
+
+      <div className="roles">
+      <li>Solo project: Entire product design from research to conception and visualization</li>
       </div>
       </div>
 
@@ -166,6 +184,22 @@ const BCU = () => {
       <li>Competitive Edge</li>
       <p>By implementing these features, Bengaluru City University can gain a competitive<br></br> edge by providing an innovative and responsive digital platform that meets the<br></br> expectations of modern students.</p>
       </div>
+
+      <hr></hr>
+
+      <div className="whatif">
+      <h4 style={{ fontSize: "20px", textTransform: "capitalize", color: "grey", marginBottom: "30px"}}>What if</h4>
+      <h2 style={{marginTop: "20px", lineHeight: "40px", fontSize: "30px"}}>What I would do if I could start over</h2>
+
+      <li>Clearer Problem Statement</li>
+      <p>Start with a concise and clearly articulated problem statement. Define the specific <br></br>challenges or pain points in the existing system that you aimed to address with <br></br>the proposed features. This sets a solid foundation for the rest of the case study.</p>
+
+      <li>User Research Emphasis</li>
+      <p> Place a stronger emphasis on user research. Share more insights gained from <br></br>interviews, surveys, or usability testing. Provide a deeper understanding of the <br></br>target audience's needs, preferences, and pain points to strengthen the<br></br> rationale behind proposed solutions.</p>
+
+      <li>Quantifiable Metrics</li>
+      <p>Include more quantifiable metrics to measure the success of the proposed <br></br>features. Whether it's expected improvements in user engagement, <br></br>application completion rates, or reduced response times with the chatbox, <br></br>having specific metrics adds credibility and allows for a more tangible <br></br>evaluation of the project's impact.</p>
+       </div>
 
       <hr></hr>
 

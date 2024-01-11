@@ -176,3 +176,70 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .return {
+      margin-left: 10px;
+    }
+
+    .section-one img {
+      width: 100%; 
+      padding: 0 10px 10px 10px; 
+    }
+
+    hr {
+      width: 100%; 
+    }
+
+    .time-line {
+      flex-direction: column; 
+      text-align: center; 
+    }
+
+    .title h1 {
+      margin-bottom: 20px;
+    }
+
+    .solution img {
+      width: 100%; 
+    }
+
+    .solution-two img {
+      width: 100%; 
+    }
+
+    .interview-image img {
+      width: 100%; 
+    }
+
+    .iteration img {
+      width: 100%; 
+    }
+
+    .changes img {
+      width: 100%; 
+      margin-top: 20px;
+    }
+
+    .result-images img {
+      width: 100%; 
+      margin-top: 20px;
+    }
+
+    .scroll-to-top-button {
+       position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .scroll-to-top-button:hover {
+      background-color: #03263d;
+    }
+  }

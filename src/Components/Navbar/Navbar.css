@@ -54,5 +54,24 @@
 .resume-button:hover {
   background-color: #03263d;
 }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
 
-  
+  .left-section {
+    margin-bottom: 15px;
+  }
+
+  .right-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .resume-button {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
