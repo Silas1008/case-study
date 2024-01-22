@@ -74,9 +74,8 @@ const Sage = () => {
       <div className="problem">
       <h4 style={{ fontSize: "20px", textTransform: "capitalize", color: "grey", marginBottom: "30px"}}>Problem</h4>
       <h1>Absence from digital platforms and e-commerce, missing out on a <br></br>vast consumer base that increasingly relies on online shopping.</h1>
-      <p style={{marginTop: "20px"}}><b>Declining</b> sales and market share. Due to the lack of digital presence. Limited access to the global market. <b>Difficulty in attracting</b> a new generation of employees. <br>
-      </br>
-      <b>Inability</b> to keep pace with modern manufacturing technologies and automation used by global competitors.
+      <p style={{marginTop: "20px"}}><b>Declining</b> sales and market share. Due to the lack of digital presence. Limited access to the global market. <br></br><b>Difficulty in attracting</b> a new generation of employees.
+      <b>Inability</b> to keep pace with modern manufacturing <br></br>technologies and automation used by global competitors.
       </p>
       </div>
 
@@ -137,7 +136,7 @@ const Sage = () => {
       <h3><b>Employee Engagement:</b><br></br>
       <li style={{marginTop: "20px"}}>Promoting a positive work environment.</li>
       </h3>
-      <li>Implementing training programs for traditional soap-making techniques.</li>
+      <li>Implementing training programs for traditional processing techniques.</li>
       <li>Highlighting career growth opportunities within the company.</li>
       </ul>
       <img src={solution3} alt=""/>
@@ -163,7 +162,7 @@ const Sage = () => {
       <div className="competitions">
       <h4 style={{ fontSize: "20px", textTransform: "capitalize", color: "grey", marginBottom: "30px"}}>competition analysis</h4>
        <h1>The competitions focuses more on quantity than quality</h1>
-     <p style={{marginTop: "30px", fontSize: "18px"}}>The competition often prioritizes marketing over product quality, lacking the personalized, heritage-driven, <br></br>and niche-focused charm embedded in a traditional soap maker's commitment to authenticity, cultural richness, <br></br>  and uncompromisingproduct excellence.</p>
+     <p style={{marginTop: "30px", fontSize: "18px"}}>The competition often prioritizes marketing over product quality, lacking the personalized, heritage-driven, <br></br>and niche-focused charm embedded in a traditional maker's commitment to authenticity, cultural richness, <br></br>  and uncompromisingproduct excellence.</p>
      <div className="competion-logo">
      <img src={flipkart} alt=""/>
      <img src={myntra} alt=""/>
@@ -182,8 +181,8 @@ const Sage = () => {
       <h3 style={{ fontSize: "25px", textTransform: "capitalize", marginTop: "30px",}}>Research Questions</h3>
 
       <div className="questions" style={{marginTop: "50px"}}>
-      <p>1. What attracts you to our traditional soap maker brand, and how does it align with your values and preferences?</p>
-      <p>2. Can you share your understanding of the traditional soap-making process and the significance of natural ingredients in beauty products?</p>
+      <p>1. What attracts you to our traditional processes of the business, and how does it align with your values and preferences?</p>
+      <p>2. Can you share your understanding of the traditional process and the significance of natural ingredients in beauty products?</p>
       <p>3. How do you envision contributing to or engaging with our community events and initiatives?</p>
       <p>4. What aspects of sustainability in product manufacturing are important to you, and how does this influence your product choices?</p>
       <p>5. In what ways do you appreciate personalized shopping experiences, and how does this influence your decision to choose certain beauty products?</p>
@@ -214,7 +213,7 @@ const Sage = () => {
 
       <div className="setbacks" style={{marginTop: "50px"}}>
       <h1 style={{textAlign: "center", marginBottom: "50px"}}>What I had to focus on initially</h1>
-      <p style={{fontSize: "18px", lineHeight: "30px"}}>In the initial week, I invested considerable time designing the app and website, <b>mirroring existing market standards</b>. However, I now recognize the need to <br></br><b>shift focus towards comprehensive company research</b>, delving into the soap-making process, and <b>understanding the values that resonate with .<br></br>consumers</b> This strategic pivot aims to prioritize authenticity and user-centricity, ensuring that the design not only aligns with market expectations but also  <br></br>encapsulates the essence of the company's heritage, processes, and the unique value it offers to consumers. This shift in approach aims for a more  <br></br>informed and resonant design strategy.</p>
+      <p style={{fontSize: "18px", lineHeight: "30px"}}>In the initial week, I invested considerable time designing the app and website, <b>mirroring existing market standards</b>. However, I now recognize the need to <br></br><b>shift focus towards comprehensive company research</b>, delving into the process, and <b>understanding the values that resonate with .<br></br>consumers</b> This strategic pivot aims to prioritize authenticity and user-centricity, ensuring that the design not only aligns with market expectations but also  <br></br>encapsulates the essence of the company's heritage, processes, and the unique value it offers to consumers. This shift in approach aims for a more  <br></br>informed and resonant design strategy.</p>
       </div>
 
       <hr></hr>

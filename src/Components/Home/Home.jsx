@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div className='home'>
       <h1>Athiza Mei Romero</h1>
-      <p>Hello! I recently wrapped up an intensive Full Stack Web Development bootcamp <br></br>where I discovered my passion for UX design. My focus on crafting intuitive digital <br></br>experiences is reflected in three case studies. While I'm a budding web developer, <br></br>my commitment and enthusiasm for learning make me eager to contribute to<br></br> innovative projects.</p>
+      <p>Hey, I'm Athiza a UI/UX designer captivated by the dance between design and fine lines. I see each project as an opportunity to solve intricate problems by delving into the essence of the challenge itself. Let's embark on a journey of unlocking possibilities together, exploring the uncharted territories of thoughts, and signs that not only meet needs but redefine them.Let's <b>design with a purpose.</b></p>
 
       <div className="sage-case">
       <img src={sage} alt=""/>

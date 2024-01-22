@@ -177,7 +177,7 @@ const BlueFlower = () => {
       <div className="mockup">
       <h4 style={{ fontSize: "20px", textTransform: "capitalize", color: "grey", marginBottom: "30px"}}>Creating user "Happy flow"</h4>
 
-      <h1>Significance of 'Happy Flow' Mockups in Application Development</h1>
+      <h1>Significance of 'Happy Flow' Mockups in <br></br>Application Development</h1>
 
       <p style={{marginTop: "30px", fontSize: "18px"}}>The "happy flow" in the user flow for veterans holds immense significance, especially for those who may face challenges in using <br></br>the application. Serving as a simplified onboarding process, it guides veterans through essential features, minimizing potential <br></br>confusion. This approach is crucial for building user confidence, particularly among those less familiar with digital applications.<br></br> By reducing cognitive load and providing a positive initial experience, the "happy flow" encourages adoption and ongoing <br></br>engagement. For veterans who may encounter cognitive challenges or stress, a streamlined user flow is essential. </p>
 

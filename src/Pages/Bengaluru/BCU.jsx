@@ -130,7 +130,7 @@ const BCU = () => {
       <h4 style={{ fontSize: "20px", marginTop: "50px", textTransform: "capitalize", color: "black", marginBottom: "30px"}}>How</h4>
       <p style={{marginTop: "-20px"}}>After conducting research and identifying numerous competitors among other universities, I propose the <br></br>implementation of a search filter feature. This feature would provide students with ample options to <br></br>choose from various courses, subjects, and degrees. Additionally, I suggest incorporating a form that <br></br>allows students to request a callback from the university administration, facilitating the initiation of their <br></br>application process. Furthermore, we can include an 'Apply Online' option for students who are certain <br></br>about the course they want to pursue. This would streamline the application process, or alternatively, <br></br>assist them in reserving a seat for a specific subject.</p>
 
-      <h4 style={{ fontSize: "20px", marginTop: "50px", textTransform: "capitalize", color: "black", marginBottom: "30px"}}>Benefits</h4>
+      <h4 style={{ fontSize: "20px", marginTop: "50px", textTransform: "capitalize", color: "black"}}>Benefits</h4>
       <p>This feature offers benefits to both the university and students. Although it may seem like a simple <br></br>change, it holds significant importance as it enhances communication between both parties. <br></br>The implementation allows for the seamless processing and follow-up of student applications, <br></br>ensuring a smoother experience overall.</p>
       </div>
 
