@@ -5,10 +5,10 @@ import onboard1 from "../../Assets/Onboarding1.png";
 import onboard2 from "../../Assets/Onboarding2.png";
 import onboard3 from "../../Assets/Onboarding 3.png";
 import problem1 from "../../Assets/problem1.png";
-import problem2 from "../../Assets/problem1.png";
-import problem3 from "../../Assets/problem1.png";
-import problem4 from "../../Assets/problem1.png";
-import problem5 from "../../Assets/problem1.png";
+import problem2 from "../../Assets/problem2.png";
+import problem3 from "../../Assets/problem3.png";
+import problem4 from "../../Assets/problem4.png";
+import problem5 from "../../Assets/problem5.png";
 import solutionsover from "../../Assets/solutionsoverview.png";
 import primarypersona from "../../Assets/primarypersonas.png"
 import prostatement from "../../Assets/prostatement.png"
