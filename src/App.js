@@ -6,6 +6,7 @@ import BlueFlower from './Pages/BlueFlower/BlueFlower';
 import BCU from './Pages/Bengaluru/BCU';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import Swiftpay from './Pages/Swiftpay/Swiftpay';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Route path='sage' element={<Sage/>}/>
     <Route path='blueflower' element={<BlueFlower/>}/>
     <Route path='bcu' element={<BCU/>}/>
+    <Route path='swiftpay' element={<Swiftpay/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
