@@ -185,6 +185,18 @@ margin-top: 50px;
     align-items: center;
     justify-content: center;
 }
+.prototype-signup{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.existing-users{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
 .sreens-access img{
  width: 250px;
 }

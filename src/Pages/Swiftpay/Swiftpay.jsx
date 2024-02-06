@@ -133,6 +133,12 @@ const Swiftpay = () => {
       <img src={out5} alt=""/>
       <img src={out6} alt=""/>
       </div>
+
+      <div className="prototype-signup">
+      <p style={{marginTop: "20px", color: "black", fontSize:"18px", marginBottom: "50px"}}>Below is the onboarding prototype, designed to ease the first-time user experience. Not registered users <br></br>will have to input their email ID. The purpose of the three onboarding screens helps the users know if <br></br>this is the right app for them before they can register. The onboarding user flow ensures smooth <br></br>registrations, guiding users seamlessly through the process with clear instructions and intuitive design <br></br>elements. Call to action "Link bank"</p>
+      <iframe style={{backgroundcolor: "white",width: "60vw", height: "650px"}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsOScIx5TF3umIRQnblAlT8%2FswiftPayFinal%3Fpage-id%3D162%253A24%26type%3Ddesign%26node-id%3D290-19156%26viewport%3D-5411%252C309%252C0.5%26t%3DxrISlGPX5FuYZApg-1%26scaling%3Dscale-down%26starting-point-node-id%3D290%253A18942%26mode%3Ddesign" allowfullscreen></iframe>
+      </div>
+
       </div>
 
       <hr></hr>
@@ -230,6 +236,14 @@ const Swiftpay = () => {
       <div className="flow-image">
       <h1 style={{color:"black"}}>Bill payments</h1>
       <img src={ftux} alt=""/>
+      </div>
+
+      <div className="existing-users"> 
+      <p style={{marginTop: "20px", color: "black", fontSize:"18px", marginBottom: "50px"}}>
+      After users link their accounts, they can begin topping up their wallet. They also have the freedom to <br></br>add multiple banks to the same account, but the wallet remains singular with their unique UPI ID<br></br> used for transactions. 
+      <b> Press the three dots next to your name, try Kotak bank "Red"</b></p>
+
+      <iframe style={{backgroundcolor: "white",width: "70vw", height: "750px"}} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsOScIx5TF3umIRQnblAlT8%2FswiftPayFinal%3Fpage-id%3D371%253A22713%26type%3Ddesign%26node-id%3D371-22842%26viewport%3D-1228%252C-2972%252C2%26t%3DowpFDM8a7LTtjt9j-1%26scaling%3Dscale-down%26mode%3Ddesign" allowfullscreen></iframe>
       </div>
 
       <hr></hr>
