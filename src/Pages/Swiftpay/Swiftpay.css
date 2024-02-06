@@ -191,6 +191,16 @@ margin-top: 50px;
     justify-content: center;
     margin-top: 50px;
 }
+.app-web{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.app-web img{
+    width: 50vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
 .existing-users{
     display: grid;
     align-items: center;

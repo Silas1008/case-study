@@ -33,6 +33,7 @@ import sitemap from "../../Assets/Sitemap.png";
 import finals from "../../Assets/finals.png";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"
+import app from "../../Assets/app.png"
 
 
 const Swiftpay = () => {
@@ -298,6 +299,12 @@ const Swiftpay = () => {
     Link
      </Link>
      </h1>
+
+     <hr></hr>
+      
+     <div className="app-web">
+     <img src={app} alt=""/>
+     </div>
 
      <hr></hr>
 
