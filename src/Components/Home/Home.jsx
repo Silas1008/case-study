@@ -1,8 +1,9 @@
-import "./Home.css"
-import sage from "../../Assets/moodboard.jpg"
-import { Link } from "react-router-dom"
-import caseblue from "../../Assets/case.png"
-import callback from "../../Assets/callback.png"
+import "./Home.css";
+import sage from "../../Assets/moodboard.jpg";
+import { Link } from "react-router-dom";
+import caseblue from "../../Assets/case.png";
+import callback from "../../Assets/callback.png";
+import header from "../../Assets/headerhome.png";
 
 
 const Home = () => {
@@ -21,6 +22,19 @@ const Home = () => {
       <div className="buttons" style={{marginTop: "50px"}}>
       <Link to="/sage"><button className="button-view">View case study</button></Link>
       <Link to="https://sage-case-study.vercel.app/"><button className="button-moodboard">Moodboard</button></Link>
+      </div>
+      </div>
+      </div>
+
+      <div className="swift-case">
+      <img src={header} alt=""/>
+      <div>
+      <p style={{color: "black"}}>Research/UI/UX</p>
+      <h2 style={{textAlign: "center"}}>Transforming Lives Through Inclusive
+      Digital Finance SwiftPay: A Case study
+      </h2>
+      <div className="buttons" style={{marginTop: "50px"}}>
+      <Link to="/swiftpay"><button className="button-view">View case study</button></Link>
       </div>
       </div>
       </div>
