@@ -4,65 +4,93 @@ import { Link } from "react-router-dom";
 import caseblue from "../../Assets/case.png";
 import callback from "../../Assets/callback.png";
 import header from "../../Assets/headerhome.png";
+import moodboard from '../../Assets/moodboard.jpg';
+import portfolio from '../../Assets/porfolio default 1.png';
+import dogwalker from '../../Assets/jax1 1.png';
+import frame2 from '../../Assets/Frame 2.png';
 
 
 const Home = () => {
   return (
-    <div className='home'>
-      <h1>Athiza Mei Romero</h1>
-      <p>Hey, I'm Athiza a UI/UX designer captivated by the dance between design and fine lines. I see each project as an opportunity to solve intricate problems by delving into the essence of the challenge itself. Let's embark on a journey of unlocking possibilities together, exploring the uncharted territories of thoughts, and signs that not only meet needs but redefine them.Let's <b>design with a purpose.</b></p>
+    // <div className='home'>
+    //   <h1>Athiza Mei Romero</h1>
+    //   <p>Hey, I'm Athiza a UI/UX designer captivated by the dance between design and fine lines. I see each project as an opportunity to solve intricate problems by delving into the essence of the challenge itself. Let's embark on a journey of unlocking possibilities together, exploring the uncharted territories of thoughts, and signs that not only meet needs but redefine them.Let's <b>design with a purpose.</b></p>
 
-      <div className="sage-case">
-      <img src={sage} alt=""/>
-      <div>
-      <p style={{color: "black"}}>Research/UX/Branding</p>
-      <h2>Revitalizing Heritage A Digital Renaissance for Traditional
-      Makers of Lebanon: A case study
-      </h2>
-      <div className="buttons" style={{marginTop: "50px"}}>
-      <Link to="/sage"><button className="button-view">View case study</button></Link>
-      <Link to="https://sage-case-study.vercel.app/"><button className="button-moodboard">Moodboard</button></Link>
-      </div>
-      </div>
-      </div>
+    //   <div className="sage-case">
+    //   <img src={sage} alt=""/>
+    //   <div>
+    //   <p style={{color: "black"}}>Research/UX/Branding</p>
+    //   <h2>Revitalizing Heritage A Digital Renaissance for Traditional
+    //   Makers of Lebanon: A case study
+    //   </h2>
+    //   <div className="buttons" style={{marginTop: "50px"}}>
+    //   <Link to="/sage"><button className="button-view">View case study</button></Link>
+    //   <Link to="https://sage-case-study.vercel.app/"><button className="button-moodboard">Moodboard</button></Link>
+    //   </div>
+    //   </div>
+    //   </div>
 
-      <div className="swift-case">
-      <img src={header} alt=""/>
-      <div>
-      <p style={{color: "black"}}>Research/UI/UX</p>
-      <h2 style={{textAlign: "center"}}>Transforming Lives Through Inclusive
-      Digital Finance SwiftPay: A Case study
-      </h2>
-      <div className="buttons" style={{marginTop: "50px"}}>
-      <Link to="/swiftpay"><button className="button-view">View case study</button></Link>
-      </div>
-      </div>
-      </div>
+    //   <div className="swift-case">
+    //   <img src={header} alt=""/>
+    //   <div>
+    //   <p style={{color: "black"}}>Research/UI/UX</p>
+    //   <h2 style={{textAlign: "center"}}>Transforming Lives Through Inclusive
+    //   Digital Finance SwiftPay: A Case study
+    //   </h2>
+    //   <div className="buttons" style={{marginTop: "50px"}}>
+    //   <Link to="/swiftpay"><button className="button-view">View case study</button></Link>
+    //   </div>
+    //   </div>
+    //   </div>
 
-      <div className="blueflower-case">
-      <img src={caseblue} alt=""/>
-      <div>
-      <p style={{color: "black"}}>Research/UX</p>
-      <h2>Nurturing Veterans Through Transition
-      Blue Flower: A case study
-      </h2>
-      <div className="buttons" style={{marginTop: "50px"}}>
-      <Link to="/blueflower"><button className="button-view">View case study</button></Link>
-      </div>
-      </div>
-      </div>
+    //   <div className="blueflower-case">
+    //   <img src={caseblue} alt=""/>
+    //   <div>
+    //   <p style={{color: "black"}}>Research/UX</p>
+    //   <h2>Nurturing Veterans Through Transition
+    //   Blue Flower: A case study
+    //   </h2>
+    //   <div className="buttons" style={{marginTop: "50px"}}>
+    //   <Link to="/blueflower"><button className="button-view">View case study</button></Link>
+    //   </div>
+    //   </div>
+    //   </div>
 
-      <div className="bcu-case">
-      <img src={callback} alt=""/>
-      <div>
-      <p style={{color: "black"}}>Research</p>
-      <h2>Improving the first time user experience <br></br>on
-      Bengaluru City University:<br></br>A case study
-      </h2>
-      <div className="buttons" style={{marginTop: "50px"}}>
-      <Link to="/bcu"><button className="button-view">View case study</button></Link>
+    //   <div className="bcu-case">
+    //   <img src={callback} alt=""/>
+    //   <div>
+    //   <p style={{color: "black"}}>Research</p>
+    //   <h2>Improving the first time user experience <br></br>on
+    //   Bengaluru City University:<br></br>A case study
+    //   </h2>
+    //   <div className="buttons" style={{marginTop: "50px"}}>
+    //   <Link to="/bcu"><button className="button-view">View case study</button></Link>
+    //   </div>
+    //   </div>
+    //   </div>
+    // </div>
+    <div class="home-container">
+      <div class='intro'>
+        <span class='hello'>Hello,  
+          <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.813 10.8881C6.93709 10.1024 8.6316 10.2531 9.64088 11.0866L8.48331 9.40408C7.55175 8.0755 7.88539 6.6381 9.21517 5.70535C10.5449 4.77618 14.313 7.27429 14.313 7.27429C13.3731 5.93256 13.5489 4.23207 14.8906 3.29095C16.2324 2.35341 18.0835 2.67748 19.0234 4.02161L31.4841 21.6244L29.896 37.0208L16.6425 32.1872L5.08234 15.0472C4.13404 13.6971 4.4617 11.8352 5.813 10.8881Z" fill="#EF9645"/>
+              <path d="M3.22296 20.6808C3.22296 20.6808 1.86927 18.7077 3.8436 17.3552C5.81554 16.0027 7.16804 17.9746 7.16804 17.9746L13.4474 27.1324C13.6638 26.7712 13.9006 26.4149 14.1649 26.0633L5.44962 13.3551C5.44962 13.3551 4.09712 11.3832 6.07026 10.0307C8.0422 8.67817 9.39469 10.6501 9.39469 10.6501L17.5922 22.6049C17.8971 22.3562 18.2092 22.1062 18.5309 21.8611L9.02757 8.00012C9.02757 8.00012 7.67507 6.02818 9.64821 4.67569C11.6201 3.3232 12.9726 5.29514 12.9726 5.29514L22.476 19.1537C22.8252 18.9397 23.1708 18.7543 23.5176 18.5582L14.6349 5.60486C14.6349 5.60486 13.2824 3.63292 15.2543 2.28042C17.2262 0.927929 18.5787 2.89987 18.5787 2.89987L27.9709 16.597L29.3987 18.6802C23.4817 22.7388 22.9184 30.3743 26.2991 35.3047C26.9747 36.2913 27.9613 35.6157 27.9613 35.6157C23.9038 29.6974 25.1427 23.0474 31.0609 18.9899L29.3162 10.2579C29.3162 10.2579 28.6644 7.95708 30.9641 7.30415C33.2648 6.65241 33.9178 8.95321 33.9178 8.95321L35.9328 14.9372C36.7316 17.3097 37.5818 19.6739 38.7071 21.9101C41.8845 28.2242 39.9867 36.0713 33.9955 40.1814C27.4602 44.6622 18.5261 42.9964 14.0441 36.4623L3.22296 20.6808Z" fill="#FFDC5D"/>
+              <path d="M14.3502 38.2668C9.56682 38.2668 4.73323 33.4332 4.73323 28.6499C4.73323 27.9886 4.24892 27.454 3.58762 27.454C2.92632 27.454 2.34155 27.9886 2.34155 28.6499C2.34155 35.8249 7.17514 40.6585 14.3502 40.6585C15.0115 40.6585 15.546 40.0737 15.546 39.4124C15.546 38.7511 15.0115 38.2668 14.3502 38.2668Z" fill="#5DADEC"/>
+              <path d="M8.37088 40.6083C4.78336 40.6083 2.39168 38.2166 2.39168 34.6291C2.39168 33.9678 1.85714 33.4333 1.19584 33.4333C0.53454 33.4333 0 33.9678 0 34.6291C0 39.4125 3.58752 43 8.37088 43C9.03218 43 9.56672 42.4654 9.56672 41.8041C9.56672 41.1428 9.03218 40.6083 8.37088 40.6083ZM28.7001 2.34143C28.04 2.34143 27.5043 2.87717 27.5043 3.53727C27.5043 4.19737 28.04 4.73311 28.7001 4.73311C33.4835 4.73311 38.2669 9.02498 38.2669 14.2998C38.2669 14.9599 38.8026 15.4957 39.4627 15.4957C40.1228 15.4957 40.6585 14.9599 40.6585 14.2998C40.6585 7.70597 35.8752 2.34143 28.7001 2.34143Z" fill="#5DADEC"/>
+              <path d="M34.6792 0C34.0191 0 33.4834 0.485511 33.4834 1.14561C33.4834 1.80572 34.0191 2.39168 34.6792 2.39168C38.2668 2.39168 40.6082 5.05242 40.6082 8.32065C40.6082 8.98076 41.193 9.51649 41.8543 9.51649C42.5156 9.51649 42.9999 8.98076 42.9999 8.32065C42.9999 3.73222 39.4626 0 34.6792 0Z" fill="#5DADEC"/>
+          </svg>
+        </span>
+        <span class='name'>I am Athiza</span>
       </div>
-      </div>
+      <div class='contents-container'>
+        <div class='content-section'>
+            <img class='images' src={moodboard} alt='moodboard' />
+            <img class='images' src={portfolio} alt='portfolio' />
+        </div>
+        <div class='content-section'>
+            <img class='images' src={dogwalker} alt='dogwalker' />
+            <img class='images' src={frame2} alt='frame2' />
+        </div>
       </div>
     </div>
   )

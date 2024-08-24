@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='sage' element={<Sage/>}/>
@@ -20,7 +20,7 @@ function App() {
     <Route path='bcu' element={<BCU/>}/>
     <Route path='swiftpay' element={<Swiftpay/>}/>
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
     </BrowserRouter>
    </>
   );
