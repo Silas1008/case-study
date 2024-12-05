@@ -7,20 +7,22 @@ import BCU from './Pages/Bengaluru/BCU';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import Swiftpay from './Pages/Swiftpay/Swiftpay';
+import Info from './Components/InfoPage/Info';
 
 function App() {
   return (
     <>
     <BrowserRouter>
-    <Navbar/>
+    {/* <Navbar/> */}
     <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='sage' element={<Sage/>}/>
+    {/* <Route path='sage' element={<Sage/>}/>
     <Route path='blueflower' element={<BlueFlower/>}/>
     <Route path='bcu' element={<BCU/>}/>
-    <Route path='swiftpay' element={<Swiftpay/>}/>
+    <Route path='swiftpay' element={<Swiftpay/>}/> */}
+    <Route path="/projects/:id" element={<Info />} />
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
     </BrowserRouter>
    </>
   );
